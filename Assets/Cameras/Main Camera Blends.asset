@@ -13,8 +13,19 @@ MonoBehaviour:
   m_Name: Main Camera Blends
   m_EditorClassIdentifier: 
   m_CustomBlends:
-  - m_From: Virtual Camera_Aerial01
-    m_To: Virtual Camera_Seaport
+  - m_From: Virtual Camera_Gate
+    m_To: VirtualCamera_Church01
+    m_Blend:
+      m_Style: 1
+      m_Time: 4
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - m_From: VirtualCamera_Church01
+    m_To: Virtual Camera
     m_Blend:
       m_Style: 1
       m_Time: 10
